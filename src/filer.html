@@ -1,0 +1,24 @@
+<form action="fileupload" method="post" enctype="multipart/form-data">
+	<fieldset>
+		<legend>Upload fil der skal printes her:</legend>
+		<table>
+			<tr>
+				<td>Fil: </td>
+				<td><input type="file" name="filetoupload"></td>
+			</tr>
+		</table><br>
+		<table>
+			<tr>
+				<td>Sider: </td>
+				<td><input type="text" name="pages" value=""></td>
+				<td>Komma separerede sider eller sideintervaller (f.x. 1-4,6,13,44-46), efterlad tom for alle sider.</td>
+			</tr>
+			<tr>
+				<td>Kopier: </td>
+				<td><input type="text" name="copies" value="1"></td>
+			</tr>
+		</table><br>
+		<input type="submit" value="Send fil og print">
+		<p>Kun PDF filer understøttes!</p>
+	</fieldset>
+</form>

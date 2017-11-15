@@ -1,0 +1,8 @@
+<form action="fileupload" method="post" enctype="multipart/form-data">
+	<fieldset>
+		<legend>Upload fil der skal printes her:</legend>
+		<input type="file" name="filetoupload"><br>
+		<input type="submit">
+		<p>Kun PDF understøttes!</p>
+	</fieldset>
+</form>'
